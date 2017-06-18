@@ -1,0 +1,105 @@
+<!DOCTYPE html >
+<html >
+<head>
+</head>
+<body>
+<p>每个表格由table 标签开始</p>
+<p>每个表格行由 tr 标签开始</p>
+<p>每个表格数据由 td 标签开始</p>
+
+<h4>一列：</h4>
+<table border="1">
+<tr>
+	<td>100</td>
+</tr>
+
+</table>
+
+<h4>一行三列：</h4>
+<table border="1" cellspacing="5" cellpadding="10" >
+<caption>heading</caption>
+<tr>
+	<td>100</td>
+	<td>200</td>
+	<td>300</td>
+</tr>
+</table>
+
+<h4>两行三列：</h4>
+<table border="2" cellpadding="5" cellspacing="10" >
+<tr>
+	<th>heading</th>
+	<th>another heading</th>
+	<th>third heading</th>
+</tr>
+<tr>
+	<td>100</td>
+	<td>200</td>
+	<td>300</td>
+</tr>	
+<tr>
+	<td>200</td>
+	<td>400</td>
+	<td>600</td>
+</tr>
+
+
+</table>
+
+<h4>横跨两列的单元格：</h4>
+<table border="1">
+<tr>
+	<th>姓名</th>
+	<th colspan="2">电话</th>
+</tr>
+<tr>
+	<td>tom</td>
+	<td>123424234</td>
+	<td>02458495</td>
+</tr>
+	
+</table>
+
+<h4>横跨两行的单元格：</h4>
+<table border="1" bgcolor="red">
+<tr>
+	<th background="timg.jpeg">姓名</th>
+	<td>tom</td>	
+</tr>
+
+<tr>
+	<th rowspan="2">电话</th>	
+	<td >234235245w5</td>
+
+</tr>
+<tr>
+	<td>03485340</td>
+
+</tr>
+
+<table border="1" background="timg.jpeg" cellpadding="10" >
+<tr>
+	<th align="left" bgcolor="blue">姓名</th>
+	<td align="right">tom</td>	
+</tr>
+
+<tr>
+<th align="left">电话</th>	
+<td align="right">
+	<table border="1">
+		<tr>
+			<td>234235245w5</td>
+		</tr>
+		<tr>
+			<td>03485340</td>
+		</tr>
+		
+	</table>
+</td>
+
+</tr>
+ 
+</table>
+</table>
+</body>
+</html>
